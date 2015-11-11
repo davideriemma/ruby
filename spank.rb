@@ -6,11 +6,7 @@ def get_integer_input
 end
 
 def bisesitle(birth1)
-  if (birth1 % 4) == 0 || (birth1 % 400) == 0
-    return true
-  else
-    return false
-  end
+  (birth1 % 4) == 0 || (birth1 % 400) == 0
 end
 
 def birthday(birth3, birth2)
