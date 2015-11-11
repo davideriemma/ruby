@@ -31,13 +31,13 @@ def birthday(birth3, birth2)
 end
 
 def bisrec(bisesitle)
-  if bisesitle == true && birth2 == conta30[1]
+  if bisesitle && birth2 == conta30[1]
     if birth3 >= 30
       puts ' non esiste un bisestile di 30'
       birth3 = get_integer_input
       bisrec(bisestile)
     end
-  elsif bisesitle == false && birth2 == conta30[1]
+  elsif bisesitle && birth2 == conta30[1]
     if birth3 >= 29
       puts ' febbraio ha solo 28 giorni'
       birth3 = get_integer_input
