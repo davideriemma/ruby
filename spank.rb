@@ -1,6 +1,9 @@
 #encoding: utf-8
 newT = Time.new
 
+conta30 = [11, 2, 4, 6, 9]
+conta31 = [1, 1, 5, 7, 8, 10, 12]
+
 def get_integer_input
   gets.chomp.to_i
 end
@@ -10,8 +13,6 @@ def bisesitle(birth1)
 end
 
 def birthday(birth3, birth2)
-  conta30 = [11, 2, 4, 6, 9]
-  conta31 = [1, 1, 5, 7, 8, 10, 12]
   if birth3 == 30 || birth3 == 31 #anche qui le conversioni sono trial
     compar = conta30.include?(birth2)
     compar2 = conta31.include?(birth2)
