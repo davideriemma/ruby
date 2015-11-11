@@ -16,14 +16,14 @@ end
 def birthday(birth3, birth2)
   conta30 = [11,02,04,06,9]
   conta31 = [01,01,05,07,8,10,12]
-    compar= conta30.include?(birth2)
-    compar2= conta31.include?(birth2)
   if birth3 == 30 || birth3 == 31 #anche qui le conversioni sono trial
+    compar = conta30.include?(birth2)
+    compar2 = conta31.include?(birth2)
     if compar == true && birth3 > 30
       puts 'non esiste un mese del genere'
       birth2 = get_integer_input
       birth3 = get_integer_input
-      birthday(birth3,birth2)
+      birthday(birth3, birth2)
     end
     if compar2 == true && birth3 > 31
       puts ' on esiste un mese del genere'
@@ -62,8 +62,8 @@ while birth3.to_i > 31
   birth3 = get_integer_input
 end
 
-dtbirth = Time.mktime(birth1,birth2,birth3)
 bisesitle(birth1)
 bisrec(bisesitle)
+dtbirth = Time.mktime(birth1, birth2, birth3)
 yrlive = dtbirth.to_i - newT.to_i
 puts 'spank!' * yrlive
