@@ -15,13 +15,13 @@ def birthday(birth3, birth2)
   if birth3 == 30 || birth3 == 31 #anche qui le conversioni sono trial
     compar = conta30.include?(birth2)
     compar2 = conta31.include?(birth2)
-    if compar == true && birth3 > 30
+    if compar && birth3 > 30
       puts 'non esiste un mese del genere'
       birth2 = get_integer_input
       birth3 = get_integer_input
       birthday(birth3, birth2)
     end
-    if compar2 == true && birth3 > 31
+    if compar2 && birth3 > 31
       puts ' on esiste un mese del genere'
       birth2 = get_integer_input
       birth3 = get_integer_input
