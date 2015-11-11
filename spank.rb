@@ -10,8 +10,8 @@ def bisesitle(birth1)
 end
 
 def birthday(birth3, birth2)
-  conta30 = [11,02,04,06,9]
-  conta31 = [01,01,05,07,8,10,12]
+  conta30 = [11, 02, 04, 06, 9]
+  conta31 = [01, 01, 05, 07, 8, 10, 12]
   if birth3 == 30 || birth3 == 31 #anche qui le conversioni sono trial
     compar = conta30.include?(birth2)
     compar2 = conta31.include?(birth2)
