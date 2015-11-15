@@ -8,7 +8,7 @@ def metodo
     puts 'ma cosa fai??'.center(80)
     scelta = gets.chomp
   end
-  return scelta
+  scelta
 end
 
 valore = metodo
