@@ -7,8 +7,8 @@ def metodo
   while scelta != '1' && scelta != '2' && scelta !='3'
   puts 'ma cosa fai??'.center(80)
   scelta = gets.chomp
-  return scelta
   end
+  return scelta
 end
 
 valore = metodo
