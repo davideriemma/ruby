@@ -10,6 +10,8 @@ def metodo
   return scelta
   end
 end
-if metodo == '1'
+
+valore = metodo
+if valore == '1'
  puts 'etc. etc. etc.'
 end
