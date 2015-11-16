@@ -3,10 +3,13 @@
 #layout.rb file for incude_file.rb
 
 class Layout
- def marcatore
-  puts ('-' * 80).center(80)
- end
- def freccia
-  puts '-> '
- end
+
+  def self.marcatore
+    puts ('-' * 80).center(80)
+  end
+
+  def freccia
+    puts '-> '
+  end
+
 end
