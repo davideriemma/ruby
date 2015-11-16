@@ -4,7 +4,7 @@
 
 class Layout
 
-  def marcatore
+  def self.marcatore
     puts ('-' * 80).center(80)
   end
 
